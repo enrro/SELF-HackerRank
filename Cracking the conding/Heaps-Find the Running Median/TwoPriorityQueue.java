@@ -7,7 +7,7 @@ import java.util.Collections;
 //    1) maxHeap.size() == minHeap.size()
 //    2) maxHeap.size() - 1 = minHeap.size()
 
-public class Solution {
+public class TwoPriorityQueue {
     private static PriorityQueue<Integer> maxHeap = new PriorityQueue<>(10,Collections.reverseOrder()); // keeps track of the SMALL numbers
     private static PriorityQueue<Integer> minHeap = new PriorityQueue<>();                           // keeps track of the LARGE numbers
     
