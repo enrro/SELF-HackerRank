@@ -92,7 +92,7 @@ public static void main(String[] args) {
         for(int i = 0; i < r; i++) {
             grid[i] = in.next();
         }
-
+        in.close();
         nextMove( r, c, pacman_r, pacman_c, food_r, food_c, grid);
     }
 }

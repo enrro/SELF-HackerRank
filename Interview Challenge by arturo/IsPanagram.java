@@ -11,6 +11,7 @@ public class IsPanagram {
         StringBuilder sb = new StringBuilder(); 
         while(in.hasNext()){
             sb.append(in.next());
+            in.close();
         }
         for(int i =0; i<sb.length();i++){
             dictionary.putIfAbsent(Character.toLowerCase(sb.charAt(i)), 1);
