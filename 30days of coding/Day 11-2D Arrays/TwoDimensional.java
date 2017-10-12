@@ -1,6 +1,10 @@
 /**
  * TwoDimensional
  * https://www.hackerrank.com/challenges/30-2d-arrays/problem
+ * Hourglass.
+ * Given a 6x6 2D array, A. 
+ * We define an hourglass in A to be a subset of values with indices falling in
+ * this pattern in A's graphical representation
  */
 
  import java.io.*;
